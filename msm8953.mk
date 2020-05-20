@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8953
+
 # Device-specific Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
