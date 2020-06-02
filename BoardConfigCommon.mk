@@ -221,3 +221,6 @@ TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
+
+# selinux permissive (temporary!!)
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
